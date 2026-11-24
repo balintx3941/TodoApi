@@ -1,4 +1,7 @@
 <Solution>
-  <Folder Name="/Solution Items/" />
+  <Folder Name="/Solution Items/">
+    <File Path="Todo.cs" />
+    <File Path="TodoDb.cs" />
+  </Folder>
   <Project Path="TodoApi.csproj" />
 </Solution>
