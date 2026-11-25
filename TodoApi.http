@@ -18,17 +18,26 @@ Content-Type: application/json
 
 
 @id=1
-GET {{TodoApi_HostAddress}}/todoitems/{{id}}
+GET {{TodoApi_HostAddress}}/todoitems/1
 
 ###
 
-PUT {{TodoApi_HostAddress}}/todoitems/{{id}}
+PUT {{TodoApi_HostAddress}}/todoitems/1
 Content-Type: application/json
 
 {
     "id": 1,
     "name": "feed fish",
     "isComplete": false
+}
+
+###
+
+PATCH {{TodoApi_HostAddress}}/todoitems/1
+Content-Type: application/json
+
+{
+  "name": "run errands"
 }
 
 ###
