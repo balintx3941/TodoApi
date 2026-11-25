@@ -21,3 +21,14 @@ Content-Type: application/json
 GET {{TodoApi_HostAddress}}/todoitems/{{id}}
 
 ###
+
+PUT {{TodoApi_HostAddress}}/todoitems/{{id}}
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "feed fish",
+    "isComplete": false
+}
+
+###
