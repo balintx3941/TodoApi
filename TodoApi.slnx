@@ -2,6 +2,7 @@
   <Folder Name="/Solution Items/">
     <File Path="Todo.cs" />
     <File Path="TodoDb.cs" />
+    <File Path="TodoItemDTO.cs" />
     <File Path="TodoPatchDto.cs" />
   </Folder>
   <Project Path="TodoApi.csproj" />
